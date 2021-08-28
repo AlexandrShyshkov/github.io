@@ -311,6 +311,11 @@ a {
     .slick-list {
         width: 600px;
     }
+        .minimized:hover {
+    box-shadow: none;
+    transform: none;
+    transition: none;
+    }
 }
 
 @media (max-width: 767px) {
